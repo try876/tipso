@@ -345,7 +345,7 @@
       }
       else if (obj.settings.contentElementId)
       {
-        content = $("#" + obj.settings.contentElementId).text();
+        content = $("#" + obj.settings.contentElementId).html();
       }
       else if (obj.settings.content)
       {
